@@ -1,4 +1,4 @@
-// print table of 10
+// table of 10
 
 let a = 1
 
@@ -8,23 +8,23 @@ while (a <= 10) {
     a = a + 1
 }
 
-// // prime number
-// let check = 72
 
-// let i = 2
-// let flag = false
+let check = 72
 
-// while(i<check){
-//     if(check%i==0){
-//         flag = true
-//     }
-//     i++ 
-// }
-// if(flag == false){
-//     console.log(check,'Is a prime')
-// }else{
-//     console.log(check,'Is not a prime')
-// }
+ let i = 2
+ let flag = false
+
+ while(i<check){
+     if(check%i==0){
+         flag = true
+     }
+     i++ 
+ }
+ if(flag == false){
+     console.log(check,'prime')
+ }else{
+     console.log(check,'not a prime')
+ }
 
 
 
